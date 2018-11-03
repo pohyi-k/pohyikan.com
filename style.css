@@ -1,0 +1,45 @@
+html {
+    background: url('background.jpg') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Covered By Your Grace', cursive;
+} 
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fec68f;
+}
+
+a {
+    color: white;
+    font-size: 35px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#1e121094;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.25;
+    
+}
